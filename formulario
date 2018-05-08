@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Título</title>
+  <script>
+
+
+  </script>
+</head>
+<body>
+<form>
+  Nome:<input type="text" name="nome"/><br>
+  <input type="radio" name="genero" value="Masculino" checked> Masculino<br>
+  <input type="radio" name="genero" value="Feminino"> Feminino<br>
+
+ email:<input type="text" name="nome"/><br>
+  <section>
+            <form>
+                <li><label for="location">Location visited:</label>
+                    <select name="location" id="location">
+                        <option value="">Select location</option>
+                        <option value="nyork">New York</option>
+                        <option value="vancouver">Vancouver</option>
+                        <option value="atlantis">Atlantis</option>
+                        <option value="alpha">Alpha Centauri</option>
+                        <option value="blackpool">Blackpool</option>
+                        <option value="bognor">Bognor Regis</option>
+                    </select></li>
+
+            </form>
+        </section>
+
+
+
+are you cool ? </><br>
+
+
+  <input type="radio" " value="sim" checked> Sim<br>
+  <input type="radio" n" value="nao"> Não<br>
+
+Qual a cor que mais gosta ? </><br>
+
+<select name="nomeMenu" size="7">
+  <optgroup label="Opçoes">
+   <option value="amarelo">amarelo</option>
+  <option value="azul">azul</option>
+  <option value="verde">verde</option>
+  <option value="rosa">rosa</option>
+  <option value="cinza">cinza</option>
+  <option value="marrom">marrom</option>
+   <option value="marrom">bege</option>
+    <option value="marrom">lilas</option>
+     <option value="marrom">laranja</option>
+
+are you cool ? </><br>
+ <input type="submit" value="Submit" name="Submit"><br>
+
+
+
+
+</select>
+
+</form>
+</body>
+</html>
+
+
+
+
+<?php
